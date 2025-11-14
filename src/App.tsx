@@ -323,7 +323,7 @@ function App() {
 
         {/* === Two Public Projects === */}
         <div className="projects-grid">
-          {projects.slice(0, 2).map((p, i) => (
+          {projects.map((p, i) => (
             <div key={i} className="project-card aos">
               <div className="project-image">
                 <img src={(p.img)} alt={p.name} />
@@ -524,14 +524,14 @@ function App() {
             >
               <i className="fab fa-github"></i>
             </a>
-            {/* <a
-              href=""
+            <a
+              href="https://wa.me/923064487363?text=Hi%20Faisal!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20connect."
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon whatsapp"
             >
               <i className="fab fa-whatsapp"></i>
-            </a> */}
+            </a>
           </div>
 
           <button
@@ -539,7 +539,7 @@ function App() {
             style={{ marginTop: "25px" }}
             onClick={() =>
               window.open(
-                "https://wa.me/923471052993?text=Hi%20Saif!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20connect.",
+                "https://wa.me/923064487363?text=Hi%20Faisal!%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20connect.",
                 "_blank"
               )
             }

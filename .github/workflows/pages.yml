@@ -1,4 +1,4 @@
-name: Deploy Vite to GH Pages
+name: Deploy Vite to GH Pagess
 on:
   push:
     branches: [ main ]

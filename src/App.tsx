@@ -501,7 +501,7 @@ function App() {
               </a>
             </p>
             <p>
-              📞 <a href="tel:03046828583">03046828583</a>
+              📞 <a href="tel:03064487363">03064487363</a>
             </p>
             <p>📍 Lahore, Pakistan</p>
           </div>

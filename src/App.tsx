@@ -3,7 +3,7 @@ import "./App.css";
 import Slider from "./components/Slider/Slider";
 import image from "./assets/download.svg";
 import projectImage from "./assets/image.png";
-import baseImage from "./assets/base-image.png";
+// import baseImage from "./assets/base-image.png";
 function App() {
   let about: any = {
     1: {
